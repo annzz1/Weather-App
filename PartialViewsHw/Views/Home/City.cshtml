@@ -1,0 +1,12 @@
+﻿@model CityWeather
+@if (Model != null)
+{
+    <partial name="_CityPartial" model="Model" />
+    <div class="text-center">
+        <a href="~/">Back to Weather Home Page</a>
+    </div>
+}
+else
+{
+    <h3>City Code is not valid.</h3>
+}
